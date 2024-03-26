@@ -238,14 +238,7 @@
 				"过滤词": "/player/#/index/",
 				"图片": "data-original=\"&&\"",
 				"播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-				"链接": "href=\"&&\"",
-			//	"搜索url": "https://www.3ayy.com/index.php/ajax/suggest.html?mid=1&wd={wd}",
-			//	"搜索模式": "1",
-				//"搜索二次截取": "\"list\":[&&]",
-				//"搜索数组": "{&&}",
-				//"搜索标题": "\"name\":\"&&\"",
-				//"搜索图片": "\"pic\":\"&&\"",
-				//"搜索链接": "https://www.3ayy.com/video/+\"id\":&&,+.html",
+				"链接": "href=\"&&\"",			
 				"播放数组": "module-play-list-base\">&&</div>",
 				"播放标题": "<span>&&</span>",
 				"播放列表": "<a&&</a>",
@@ -665,16 +658,6 @@
 			]
 		},
 		{
-			"name": "暴风廣告",
-			"hosts": [
-				"bfzy",
-				"s5.bfzycdn"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-			]
-		},
-		{
 			"name": "星星",
 			"hosts": [
 				"aws.ulivetv.net"
@@ -682,29 +665,6 @@
 			"regex": [
 				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY",
 				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-			]
-		},
-		{
-			"name": "量子廣告",
-			"hosts": [
-				"vip.lz",
-				"hd.lz",
-				"v.cdnlz"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-			]
-		},
-		{
-			"name": "非凡廣告",
-			"hosts": [
-				"vip.ffzy",
-				"hd.ffzy"
-			],
-			"regex": [
-				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-				"#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
 			]
 		},
 		{
@@ -762,10 +722,4 @@
 		"哔 哩",
 		"哔 哩 哔 哩"
 	],
-	"ads": [
-		"wan.51img1.com",
-		"iqiyi.hbuioo.com",
-		"vip.ffzyad.com",
-		"https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
-	]
 }
