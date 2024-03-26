@@ -85,7 +85,7 @@
         "冒险片",
         "剧情片",
         "动作片",
-        "同性片",
+         //"同性片",
         "喜剧片",
         "奇幻片",
         "恐怖片",
@@ -514,9 +514,6 @@
         "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
     }
-  ],
-  "ads": [
-    "static-mozai.4gtv.tv",
-    "s3t3d2y8.afcdn.net"
   ]
+
 }
